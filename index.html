@@ -16,9 +16,9 @@
             <div class="header-logo">Andrew Dodonov</div>
             <div class="navbar__menu">
                 <ul class="navbar__menu-list">
-                    <li class="navbar__menu-item"><a href="" class="navbar__menu-link">Обо мне</a></li>
-                    <li class="navbar__menu-item"><a href="" class="navbar__menu-link">Портфолио</a></li>
-                    <li class="navbar__menu-item"><a href="" class="navbar__menu-link">Контакты</a></li>
+                    <li class="navbar__menu-item"><a href="#" class="navbar__menu-link">Обо мне</a></li>
+                    <li class="navbar__menu-item"><a href="#projects-section" class="navbar__menu-link">Портфолио</a></li>
+                    <li class="navbar__menu-item"><a href="#contacts-and-links" class="navbar__menu-link">Контакты</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,8 +33,6 @@
             </div>
 
         </div>
-
-
 
     </header>
     <main>
@@ -111,29 +109,34 @@
 
             <div id="cv">
                 <div id="cv-left-part">
-                    
                     <img src="https://delai-vibor.com/wp-content/uploads/2017/12/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82.jpg"
                         alt="photo for cv" class="cv-photo">
 
-                    <div class="cv-pole">
-                        <h3 class="cv-title">Name: </h3>
-                        <p>Andrew Dodonov</p>
-                    </div>
-
-                    <div class="cv-pole">
-                        <h3 class="cv-title">Adress: </h3>
-                        <p>Moscow, Russia</p>
-                    </div>
-                    <div class="cv-pole">
-                        <h3 class="cv-title">Phone: </h3>
-                        <p>8(999)123-45-67</p>
-                    </div>
-                    <div class="cv-pole">
-                        <h3 class="cv-title">E-mail: </h3>
-                        <p>mail@mail.com</p>
-                    </div>
-
+                        <!-- TODO: add responsive -->
+                        <div id="cv-left">
+                            <div class="cv-pole">
+                                <h3 class="cv-title">Name: </h3>
+                                <p>Andrew Dodonov</p>
+                            </div>
+        
+                            <div class="cv-pole">
+                                <h3 class="cv-title">Adress: </h3>
+                                <p>Moscow, Russia</p>
+                            </div>
+                            <div class="cv-pole">
+                                <h3 class="cv-title">Phone: </h3>
+                                <p>8(999)123-45-67</p>
+                            </div>
+                            <div class="cv-pole">
+                                <h3 class="cv-title">E-mail: </h3>
+                                <p>mail@mail.com</p>
+                            </div>
+        
+                        </div>    
                 </div>
+
+                
+
 
 
 
@@ -147,7 +150,7 @@
                         <p>speak, look</p>
                     </div>
                     <div class="cv-pole">
-                        <h3 class="cv-title">Hard scills: </h3>
+                        <h3 class="cv-title">Hard skills: </h3>
                         <p>print, eat, drink</p>
                     </div>
 
@@ -156,10 +159,36 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+        <!-- contacts and links -->
 
+        <section id="contacts-and-links">
+            <div class="cv-section-header">
+                <h2 id="cv-section-title">
+                    Contacts and links
+                </h2>
+            </div>
+            <div id="contacts-wrapper">
+                <div class="cv-pole">
+                    <h3 class="cv-title">VK: </h3>
+                    <p><a href="https://vk.com/id230290772">VK</a></p>
+                </div>
+                <div class="cv-pole">
+                    <h3 class="cv-title">Git hub: </h3>
+                    <p><a href="https://github.com/AndreyDodonov/portfl#my-portfolio">Github</a></p>
+                </div>
+            </div>            
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="footer-section">
+            <div id="footer-wrapper">
+                <h2 id="footer-header">Made with &#10084; by Andrew Dodonov, 2020</h2>
+            </div>
+        </section>
     </footer>
+
 <script src="./script.js" defer></script>    
 </body>
 
